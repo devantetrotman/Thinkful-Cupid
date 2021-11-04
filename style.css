@@ -17,6 +17,10 @@ h3 {
   font-weight: 500;
 }
 
+img {
+  max-width:100%;
+}
+
 p {
   line-height: 1.5em;
   margin: 0;
@@ -31,15 +35,12 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-main img {
-  /* width: 100px; */
-}
-
-img{
-  /* width: 100%; */
-}
 
 /* ---  Groups & Items --- */
+
+.aboutText{
+  font-size: 3vw;
+}
 
 .group {
   display: flex;
@@ -57,8 +58,8 @@ img{
 }
 
 .item img{
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   display: block;
 }
 
@@ -159,7 +160,10 @@ footer p {
     align-items: center;
   }
 
-  #join 
+  .logo{
+    text-align: left;
+    font-size: 5vw;
+  }
 
   .joinPic{
     width: 75%;
@@ -175,6 +179,8 @@ footer p {
   }
 
   .aboutText{
+    display: flex;
+    font-size: 1.5vw;
     width: 50%;
   }
 
@@ -204,15 +210,28 @@ footer p {
     height: 200px;
   }
 
+  header nav ul{
+    justify-content: right;
+    font-size: 2vw;
+  }
 
-  .seperate{
+  header{
     display: flex;
     flex-direction: row;
-    width: 100%;
+  }
+
+  header div{
+    width: 50%;
+  }
+
+  header nav{
+    justify-content: right;
+    width: 50%;
   }
 
 
   h2{
     text-align: center;
   }
+
 }
